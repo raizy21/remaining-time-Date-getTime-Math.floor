@@ -1,9 +1,9 @@
 function countdown() {
-  let now = new Date();
+  let now = new Date();   //Output: Mon Dec 09 2024 07:25:34 GMT+0100 (Central European Standard Time)
   let eventDate = new Date(2024, 11, 31); // Month is 0-based in JavaScript
 
-  let currentTime = now.getTime();
-  let eventTime = eventDate.getTime();
+  let currentTime = now.getTime(); // Output: 1733725428600
+  let eventTime = eventDate.getTime(); //Output: 1735599600000
 
   let remainingTime = eventTime - currentTime;
 
